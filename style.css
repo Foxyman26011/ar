@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #FF77FF;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+button {
+    background-color: #FF77FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FF3399;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FF77FF;
+    border-radius: 5px;
+}
+
+.gallery-item {
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #FF77FF;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery-item p {
+    color: #FF77FF;
+    font-size: 1.2em;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Admin Panel</h2>
+        <form id="gallery-form">
+            <label for="image-url">Image URL:</label>
+            <input type="text" id="image-url" required><br>
+
+            <label for="image-description">Image Description:</label>
+            <textarea id="image-description" required></textarea><br>
+
+            <button type="submit">Add Image</button>
+        </form>
+
+        <div id="gallery">
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
