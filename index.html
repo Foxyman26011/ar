@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jheann's Area</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-screen" id="loginScreen">
+    <h1>Welcome to Jheann's Area!</h1>
+    <p>Login as guest (leave password empty), or use your admin password.</p>
+    <input type="text" id="username" placeholder="Enter your name">
+    <input type="password" id="password" placeholder="Enter password (admin only)">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div class="gallery-screen" id="galleryScreen" style="display: none;">
+    <h2 id="greeting"></h2>
+    <div id="adminControls" style="display: none;">
+      <input type="file" id="imageInput" accept="image/*">
+      <input type="text" id="imageCaption" placeholder="Enter caption">
+      <button onclick="addImage()">Add to Gallery</button>
+    </div>
+    <div class="gallery" id="gallery"></div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
